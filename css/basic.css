@@ -1,0 +1,5 @@
+*{margin:0;padding:0;}
+a{text-decoration:none;}
+li{list-style:none;}
+.clear::after{display:block;overflow:hidden;clear:both;height:0;visibility:hidden;content:"";zoom:1;}
+.contenter{width:1000px;margin:0 auto;}

@@ -1,0 +1,65 @@
+header{height:30px;display:flex;}
+header .box{width:300px;height:250px;background-color:red;}
+header .contenter{width:100%;font-size:12px;color:#CACAD9;line-height:30px;position:fixed;background-color:#ECECFB;}
+header .contenter .a1{float:left;}
+header .contenter .a1 li{float:left;}
+header .contenter .a1 span{padding:0 10px 0 5px;border-right:1px solid #FFFFFF;}
+header .contenter .a2{float:right;}
+header .contenter .a2 li{float:left;}
+header .contenter .a2 span{padding:0 10px 0 5px;border-right:1px solid #FFFFFF;}
+header .contenter ul li a{display:block;color:#313140;transition:all 2s;}
+header .contenter ul li a:hover{color:white;background-color:red;}
+header .contenter ul li i{display:block;float:left;font-size:20px;padding-left:5px;line-height:30px;color:#D90000;text-align:center;}
+header .contenter ul li a:hover i{color:white;}
+header .contenter ul li .a2 li:last-child{position:relative;}
+header .contenter .a2 .a4:hover .a3{display:block;}
+header .contenter ul li .a3{position:absolute;display:none;width:505px;height:80px;background-color:#F5F5F5;border:1px solid #EEEEEE;border-top:0;top:30px;right:0;}
+header .contenter ul li .a3 a{display:block;width:100px;height:39px;float:left;font-size:12px;line-height:39px;text-align:center;border-right:1px solid white;border-bottom:1px solid white;}
+
+
+/*----------------------nav--------------------*/
+nav{display:flex;}
+nav .contenter .b1{float:left;width:350px;height:100px;margin:30px;}
+nav .contenter .b1 .icon-shucaiyouxuan{display:block;float:left;width:100px;font-size:100px;height:100px;color:#26FF26;}
+nav .contenter .b1 h1{float:left;margin-left:-10000000px;}
+nav .contenter .b1 span{display:block;font-size:20px;color:#F5A700;width:300px;}
+nav .contenter .b1 .b2{padding-top:35px;}
+nav .contenter .b3{margin:30px 10px;width:500px;height:100px;float:left;}
+nav .contenter .b3 .b4{height:80px;width:500px;float:left;margin-top:10px;}
+nav .contenter .b3 input{display:block;float:left;width:400px;height:40px;border:1px solid #ccc;border-right:none;margin-top:30px;outline:none;font-size:18px;color:#ccc;}
+nav .contenter .b3 a{display:block;float:left;width:100px;height:40px;text-align:center;line-height:40px;background-color:#0DA944;margin-top:30px;color:white;}
+nav .contenter .b3 span{font-size:14px;line-height:30px;}
+nav .contenter .b3 span i{font-style:normal;font-size:12px;color:#8C6900;line-height:30px;padding:0 10px;}
+
+
+#nav1{width:100%;height:45px;background-color:#009237;}
+#nav1 .contenter ul li{float:left;line-height:45px;}
+#nav1 .contenter ul li a span{padding:0 15px;border-right:1px solid white;color:#FFFFFF;}
+#nav1 .contenter ul li a{transition:all 2s;display:block;float:left;}
+#nav1 .contenter ul li a .nav-1{display:block;float:left;width:200px;padding:0;border-right:none;text-align:center;background-color:#0DA944;}
+#nav1 .contenter ul li a:hover{background-color:red;}
+
+
+
+/*-------------------------农产品分类-------------------------*/
+main .contenter .tag1{float:left;display:inline-block;width:200px;height:400px;}
+main .contenter .tag1 ul li a{display:inline-block;float:left;width:100%;height:49px;color:#333333;font-size:14px;background-color:#F8F8F8;line-height:50px;text-align:center;border-bottom:1px solid #CCCCCC;transition:all 2s;position:relative;}
+main .contenter .tag1 ul li a:hover{background-color:red;color:white;}
+main .contenter .tag1 ul li a i{float:left;width:50px;font-size:40px;text-align:left;}
+main .contenter .tag1 ul li a .tag2{display:none;position:absolute;left:200px;top:0;width:780px;height:400px;
+    z-index:10000;}
+main .contenter .tag1 ul li a:hover .tag2{display:block;background-color:#CACAD9;}
+main .contenter .tag1 ul li a .tag3{position:absolute;left:200px;top:-50px;}
+main .contenter .tag1 ul li a .tag4{position:absolute;left:200px;top:-100px;}
+main .contenter .tag1 ul li a .tag5{position:absolute;left:200px;top:-150px;}
+main .contenter .tag1 ul li a .tag6{position:absolute;left:200px;top:-200px;}
+main .contenter .tag1 ul li a .tag7{position:absolute;left:200px;top:-250px;}
+main .contenter .tag1 ul li a .tag8{position:absolute;left:200px;top:-300px;}
+main .contenter .tag1 ul li a .tag9{position:absolute;left:200px;top:-350px;}
+main .contenter .tag1 ul li a span{display:inline-block;font-size:14px;line-height:30px;text-align:center;color:#666666;height:30px;padding:5px 15px;border:1px solid white;transition:all 2s;}
+main .contenter .tag1 ul li a span:hover{background-color:red;color:white;}
+
+
+/*----------------------轮播图----------------------------------------*/
+
+main .contenter .pic{float:left;width:780px;height:400px;}
