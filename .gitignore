@@ -1,0 +1,6 @@
+#过滤文件清单
+/node_modules/
+/dist/
+*zip
+*.rar
+*.7z
